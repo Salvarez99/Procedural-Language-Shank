@@ -1,0 +1,15 @@
+define start (a, b : integer; var s : real)
+begin
+
+start 3, 4
+
+functionCall_1 a, b, var c
+
+functionCall_2 a, b, c
+
+functionCall_3 a, 2, var c
+
+functionCall_4 var a, 2, c
+
+
+end

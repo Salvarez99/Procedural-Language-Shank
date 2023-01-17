@@ -1,0 +1,25 @@
+(*REMINDER: making a comment within a block comment is not valid*)
+define start (a : integer)
+constants
+pi = 3.1415
+sova = 42
+
+variables
+x : integer
+begin
+(*testing if assignment works properly*)
+(*Valid cases*)
+a := 2 + 3
+b :=  4 / 2 (*asd*)
+(*
+c := 1 * 4
+d := 2 - 5
+e := 8.5 * 4.5 / 2
+i := .21 - -9
+*)
+f := -5 - 3 
+g := +4 * -7
+h := -2 / -.23
+
+(*debuging*)
+end

@@ -1,0 +1,24 @@
+define start (a : integer )
+constants
+b = 32.25
+
+variables
+c : real
+begin
+
+(*Bug: allow start and end node to be a varReference*)
+(*Do later fuck it*)
+for a from 3 to 5 
+begin
+
+a := 5 * 2
+a := 5 / 4
+a := 5 + 1
+a := 5 - 9
+(*mod is not working; mathop is null for some reason*)
+(*a := 5 % 6*)
+
+end
+
+
+end

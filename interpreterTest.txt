@@ -1,0 +1,62 @@
+define start()
+constants
+a = 144
+
+variables
+x, y, i : integer
+z : real 
+
+begin
+
+    x := 4 % 2
+    write x
+
+    (*
+    read var x
+    box x
+    *)
+
+
+    (*Testing read and write*)
+        (*working*)
+    (*
+    read x, var z
+    write x, z
+    *)
+
+    (*Testing integerToReal*)
+        (*Should only work when params are (Integer, Float)*)
+        (*working*)
+    (*
+    write a
+    integerToReal a, var x
+    write x
+    *)
+
+    (*Testing realToInteger*)
+        (*Should only work when params are (Float, Integer)*)
+        (*working*)
+    (*
+    write a
+    realToInteger a, var x
+    write x  
+    *)
+
+    (*Testing squareRoot*)
+        (*Should work when params are (Float or Integer, Float) *)
+        (*working*)
+    (*
+    write a
+    squareRoot a, var z
+    write z
+    *)
+
+    (*Testing getRandom*)
+        (*Should work when param is (Float or Integer) *)
+        (*working*)
+    (*    
+    getRandom var x
+    write x
+    *)
+
+end

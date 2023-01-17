@@ -1,0 +1,46 @@
+y:=x+5
+y:=5+x
+y:=x+x
+
+(*
+6 % x
+x % 5
+x % x
+y := 6 + x
+x := 3 + 2
+<
+>
+<=
+>=
+<>
+=
+if
+then
+else
+elsif
+for
+from
+to 
+while
+repeat
+until
+354
+th
+a
+asd
+ i2dentifier2_13
+ asdsad 
+ qwerer 
+ ytjytj 
+ define 
+ integer 
+ real 
+ begin 
+ end 
+ variables 
+ constants 
+ ; 
+ : 
+ , 
+ :=
+ *)

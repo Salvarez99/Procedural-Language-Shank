@@ -1,0 +1,45 @@
+define start (a : integer )
+constants
+b = 32.25
+
+variables
+c : real
+begin
+
+
+if 2 < 3 then 
+begin
+    (*mod is not working; mathop is null for some reason*)
+    (*a := 5 % 6*)
+
+    while 2 > 3
+    begin 
+        a := 5 * 2
+
+        repeat
+        begin   
+            g := 4
+        end
+        until 3 = 8
+    end
+
+    for d from 8 to 1
+    begin
+        f := 4
+
+        if 2 <> 3 then
+        begin
+            w := 2
+        end
+
+    end
+
+
+
+
+
+end
+
+
+
+end
